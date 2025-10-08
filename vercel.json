@@ -1,10 +1,9 @@
 {
-    "$schema": "https://openapi.vercel.sh/vercel.json",
-    "crons": [
-        {
-            "path": "/api/send-silent-push",
-            "schedule": "*/30 * * * *"
-        }
-    ]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "crons": [
+    {
+      "path": "/api/send-silent-push",
+      "schedule": "*/30 * * * *"
+    }
+  ]
 }
-
